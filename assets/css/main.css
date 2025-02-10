@@ -489,22 +489,22 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
-  width: 40px;
-  height: 40px;
+  background-color: var(--contrast-color);
+  width: 70px;
+  height: 70px;
   border-radius: 4px;
-  transition: all 0.4s;
+ /* transition: all 0.4s;*/
 }
 
 .scroll-top i {
-  font-size: 24px;
-  color: var(--surface-color);
+  font-size: 44px;
+  color: var(--heading-color);
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
+  background-color: color-mix(in srgb, var(--surface-color), transparent 20%);
+  color: var(--heading-color);
 }
 
 .scroll-top.active {
